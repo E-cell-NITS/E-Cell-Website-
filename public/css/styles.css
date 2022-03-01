@@ -774,7 +774,7 @@ html {
   
 /* collaboration start */
 .colleb{
-    margin-top: 5%;
+    margin-top: 2.5%;
     background-color: white;
 
 }
@@ -783,6 +783,8 @@ html {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
+    padding-bottom: 2%
+
 }
 .colleb .collebLogo{
     display: flex;
@@ -1249,7 +1251,7 @@ section {
     font-weight: 300;
     font-style: normal;
   }
-  .quote h3, h5 {
+  .quote h3 h5 {
     font-family: 'Engravers MT';
     margin: 0;
     padding: 0;
