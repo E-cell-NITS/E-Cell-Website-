@@ -1241,6 +1241,21 @@ section {
       margin: 0;
       padding: 0;
   }
+    
+  @font-face {
+    font-family: 'Engravers MT';
+    src: local('Engravers MT'), local('Engravers MT'),
+      url('ENGR.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  .quote h3, h5 {
+    font-family: 'Engravers MT';
+    margin: 0;
+    padding: 0;
+}
+  
+
 .header{
     display: flex;
     flex-direction: column;
@@ -1273,6 +1288,7 @@ section {
     font-size: 10rem;
     margin: 0;
     padding: 0;
+    
 }
 .header h2{
     color:rgb(232,232,232);
@@ -1317,6 +1333,7 @@ section {
     margin-top: 3%;
    
 }
+
 .Testimonial .content_info{
     display: flex;
   justify-content: space-between;
@@ -1328,10 +1345,12 @@ section {
 .Testimonial .info_name{
     margin-right: 1%;
 }
-.Testimonial .info_name h5{
+.Testimonial .info_name h4{
          font-size: 16px;
          font-weight: 600;
          margin-bottom: 2px;
+         color: gray;
+         /* font-family: 'Axiforma'; */
          
 }
 .Testimonial .info_name h6{
