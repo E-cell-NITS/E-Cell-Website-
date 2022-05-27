@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body onload="preloaderfun()">
+    <div id="loading"></div>
     <!-- Navbar starting -->
     <div id="main" class="navbar sticky ">
         <ul>
@@ -531,6 +532,14 @@
 
         
         }
+
+        var preloader = document.getElementById("loading");
+
+        function preloaderfun(){
+            preloader.style.display = "none";
+        }
+
+
     
     </script>
 

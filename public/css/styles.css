@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url(../images/59542-edugyan-group.gif) no-repeat center;
+  z-index: 1000;
+}
+
 body {
     /* background-image:url(https://github.com/E-cell-Website-NITS/E-Cell-Website-/blob/main/images/home_page_image.png?raw=true); */
     /* background-repeat: no-repeat;
