@@ -5,182 +5,194 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ANIMATED PARTICLE BACKGROUND */
-#particles-js-2{
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  background: rgb(1,32,61);
-}
 
-#particles-js{
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  /* background: rgb(1,32,61); */
-}
 
 /* ANIMATED PARTICLE BACKGROUND */
+
+#particles-js-2 {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: rgb(1, 32, 61);
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* background: rgb(1,32,61); */
+}
+
+
+/* ANIMATED PARTICLE BACKGROUND */
+
 
 /* PRELOADER */
-#loading{
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(1,32,61);
-  z-index: 1000;
+
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 32, 61);
+    z-index: 1000;
 }
+
 
 /* svg {
   width: 100%;
 } */
 
 .container {
-  width: 200px;
-  margin: 3em auto;
+    width: 200px;
+    margin: 3em auto;
 }
 
 .st0 {
-  fill: #FFFFFF;
+    fill: #FFFFFF;
 }
 
 .st1 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 4;
-  stroke-miterlimit: 10;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
 }
 
 .st2 {
-  fill: none;
-  opacity: .5;
-  stroke: #FFFFFF;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
+    fill: none;
+    opacity: .5;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
 }
 
 #one {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .1s infinite;
-  animation: line-glow 1s .1s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .1s infinite;
+    animation: line-glow 1s .1s infinite;
 }
 
 #two {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .2s infinite;
-  animation: line-glow 1s .2s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .2s infinite;
+    animation: line-glow 1s .2s infinite;
 }
 
 #three {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .3s infinite;
-  animation: line-glow 1s .3s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .3s infinite;
+    animation: line-glow 1s .3s infinite;
 }
 
 #four {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .4s infinite;
-  animation: line-glow 1s .4s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .4s infinite;
+    animation: line-glow 1s .4s infinite;
 }
 
 #five {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .5s infinite;
-  animation: line-glow 1s .5s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .5s infinite;
+    animation: line-glow 1s .5s infinite;
 }
 
 #six {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .6s infinite;
-  animation: line-glow 1s .6s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .6s infinite;
+    animation: line-glow 1s .6s infinite;
 }
 
 #seven {
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation: line-glow 1s .7s infinite;
-  animation: line-glow 1s .7s infinite;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation: line-glow 1s .7s infinite;
+    animation: line-glow 1s .7s infinite;
 }
 
 #bulb-body-fill {
-  -webkit-animation: bulb-on 1s ease infinite;
-  animation: bulb-on 1s ease infinite;
+    -webkit-animation: bulb-on 1s ease infinite;
+    animation: bulb-on 1s ease infinite;
 }
 
 @-webkit-keyframes line-glow {
-  10% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    opacity: 1;
-  }
+    10% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 1;
+    }
 }
 
 @keyframes line-glow {
-  10% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    opacity: 1;
-  }
+    10% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 1;
+    }
 }
 
 @-webkit-keyframes bulb-on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes bulb-on {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
+
 /* PRELOADER */
 
+
 /* SCROLL-BAR */
+
 body::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #333333;
-  box-shadow: inset 0 0 5px black;
+    background-color: #333333;
+    box-shadow: inset 0 0 5px black;
 }
 
 body::-webkit-scrollbar-thumb {
-  /* background-image: linear-gradient(-180deg, #b621fe, #1fd1f9); */
-  background-color: white;
-  border-radius: 10px;
-  transition: 250ms;
-  opacity: 0.8;
+    /* background-image: linear-gradient(-180deg, #b621fe, #1fd1f9); */
+    background-color: white;
+    border-radius: 10px;
+    transition: 250ms;
+    opacity: 0.8;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255, 255, 255, 0.5);
 }
-/* SCROLL-BAR */
 
+
+/* SCROLL-BAR */
 
 body {
     /* background-image:url(https://github.com/E-cell-Website-NITS/E-Cell-Website-/blob/main/images/home_page_image.png?raw=true); */
@@ -928,7 +940,8 @@ html {
 
 
 /* collaboration start */
-.colleb{
+
+.colleb {
     margin-top: 8.5%;
     background-color: white;
 }
@@ -939,7 +952,6 @@ html {
     font-size: 26px;
     font-weight: 500;
     padding-bottom: 7%
-
 }
 
 .colleb .collebLogo {
@@ -949,22 +961,19 @@ html {
     flex-wrap: wrap;
     flex-direction: column;
     padding-bottom: 11%;
-    
-
 }
-.colleb .collebLogo img{
+
+.colleb .collebLogo img {
     line-height: 75px;
     width: 120px;
     margin: 3.5rem;
     text-align: center;
 }
-@media screen and (max-width:400px){
-  
-  .colleb .collebLogo img{
-    
-    display: block;
-  }
 
+@media screen and (max-width:400px) {
+    .colleb .collebLogo img {
+        display: block;
+    }
 }
 
 
@@ -1182,10 +1191,9 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2%;
-    border-left: 100%;
-    margin: auto;
-    /* overflow:hidden; */
+    padding-left: 3rem;
+    padding-top: 5rem;
+    height: 35rem;
 }
 
 .timeline .line {
@@ -1351,68 +1359,79 @@ html {
 }
 
 .slideshow-container {
-  position: relative;
-  background: white;
+    position: relative;
+    background: white;
 }
 
 .mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-}
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    display: none;
+    padding: 80px;
+    text-align: center;
 }
 
-/* Position the "next button" to the right */
+.prev,
 .next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
+
 /* The dot/bullet/indicator container */
+
 .dot-container {
     text-align: center;
     padding: 20px;
     background: #ddd;
 }
 
+
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
+
 
 /* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
-}
 
-  
+.active,
+.dot:hover {
+    background-color: #717171;
+}
 
 .header {
     display: flex;
@@ -1530,41 +1549,34 @@ html {
     cursor: pointer;
 }
 
+
 /* .prev{
   left: 10px;
 } */
 
-@media screen and (max-width: 730px){
-
-  .Testimonial .Test_photo{
-    flex-direction: column;
-  }
-
-  .Testimonial .Test_content{
-    width: 80%;
-  }
- 
-  .Testimonial .Test_content p{
-
-    margin-top: 22%;
-  }
-
-  .next{
-    right: 22px;
-    margin-top: 4%;
-  }
-  
-  .prev {
-    left: 7px;
-    margin-top: 4%;
+@media screen and (max-width: 730px) {
+    .Testimonial .Test_photo {
+        flex-direction: column;
+    }
+    .Testimonial .Test_content {
+        width: 80%;
+    }
+    .Testimonial .Test_content p {
+        margin-top: 22%;
+    }
+    .next {
+        right: 22px;
+        margin-top: 4%;
+    }
+    .prev {
+        left: 7px;
+        margin-top: 4%;
+    }
 }
 
-
-
-  
-}
 
 /* sakshi testimonial end  */
+
 
 /* sakshi testimonial end  */
 
@@ -1711,18 +1723,21 @@ html {
 /* EVENT HIGHLIGHT SECTION CSS MAINUR*/
 
 .event__Container {
-    margin: 2px;
-    width: 100%;
+    width: 96%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20% 90% 90%;
     grid-template-areas: "event__Header event__Header" "left__Box right__Box" "event__Footer event__Footer";
-    margin-top: 100px;
+    margin-top: 10rem;
+    margin-left: 6rem;
+    /* margin-right: 6rem; */
 }
 
 .full__Container {
-    background-color: #f8f8ff
+    background-color: #f8f8ff;
+    position: relative;
+    /* width: 80%; */
 }
 
 .event__Header {
@@ -1751,6 +1766,7 @@ h1.main__Heading {
     margin-left: 4rem;
     padding-top: 40px;
 }
+
 h1.main__Heading:after {
     content: "";
     display: block;
@@ -1782,10 +1798,12 @@ p.event__text {
     margin: 3rem;
     padding-bottom: 40px;
 }
+
 @media (max-width: 1000px) {
     .event__Container {
         flex-direction: column;
-        margin: 1rem;
+        margin: 0;
+        margin-right: 0;
     }
     h1.main__Heading {
         position: relative;
@@ -2025,7 +2043,7 @@ p.event__text {
         width: 80%;
         padding: 20px;
     }
-    .event__Box:hover h2{
+    .event__Box:hover h2 {
         padding-bottom: 20px;
         transform: scale(1.1);
     }
@@ -2034,7 +2052,7 @@ p.event__text {
         padding-bottom: 10px;
         line-height: 1;
     }
-    .event__Box{
+    .event__Box {
         margin-bottom: 1.6rem;
     }
 }
@@ -2238,7 +2256,7 @@ footer {
     font-family: "Source Sans Pro", sans-serif;
     clear: both;
     margin: 10rem 0 0;
-    background-color:  rgb(1,32,61);
+    background-color: rgb(1, 32, 61);
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2440,14 +2458,14 @@ footer hr {
     border-radius: 50%;
 }
 
-.fix{
+.fix {
     width: auto !important;
     background-color: transparent !important;
     border-radius: 0% !important;
-    border: none  !important;
+    border: none !important;
 }
 
-.fix:after{
+.fix:after {
     background-color: transparent !important;
 }
 
@@ -2489,7 +2507,8 @@ footer hr {
 }
 
 .fcol-3 button {
-    background:#00f8ff;;
+    background: #00f8ff;
+    ;
     height: 2.2rem;
     width: 2.2rem;
     -webkit-transform: scale(1.25);
@@ -2516,7 +2535,7 @@ footer hr {
 /* footer bottom start here */
 
 .footer-bottom {
-    background-color:  rgb(31 47 61 / 86%);     
+    background-color: rgb(31 47 61 / 86%);
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
