@@ -34,9 +34,9 @@
   z-index: 1000;
 }
 
-svg {
+/* svg {
   width: 100%;
-}
+} */
 
 .container {
   width: 200px;
@@ -928,9 +928,8 @@ html {
 
 
 /* collaboration start */
-
-.colleb {
-    margin-top: 2.5%;
+.colleb{
+    margin-top: 8.5%;
     background-color: white;
 }
 
@@ -939,20 +938,33 @@ html {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
-    padding-bottom: 2%
+    padding-bottom: 7%
+
 }
 
 .colleb .collebLogo {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
+    flex-direction: column;
+    padding-bottom: 11%;
+    
 
-.colleb .collebLogo img {
-    height: 120px;
+}
+.colleb .collebLogo img{
+    line-height: 75px;
     width: 120px;
-    margin: 10px 18px 10px 0px;
+    margin: 3.5rem;
+    text-align: center;
+}
+@media screen and (max-width:400px){
+  
+  .colleb .collebLogo img{
+    
+    display: block;
+  }
+
 }
 
 
@@ -978,7 +990,7 @@ html {
     background-color: #0B013E;
     color: white;
     /* overflow: hidden; */
-    /* changed 100wh --> 100% by manash in order to remove the x-overflow of div and appearance of horizontal scroll bar */
+    padding-bottom: 80px;
 }
 
 .about_main {
@@ -997,8 +1009,8 @@ html {
 }
 
 .about_img img {
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    /* height: 80%; */
     /*     animation: slideLeft 1s; */
 }
 
@@ -1023,7 +1035,7 @@ html {
     display: flex;
     flex-direction: column;
     text-align: start;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -1337,6 +1349,70 @@ html {
     padding: 0;
 }
 
+.slideshow-container {
+  position: relative;
+  background: white;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+  
+
 .header {
     display: flex;
     flex-direction: column;
@@ -1392,7 +1468,7 @@ html {
     z-index: 1;
     min-width: 45%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -1453,6 +1529,41 @@ html {
     cursor: pointer;
 }
 
+/* .prev{
+  left: 10px;
+} */
+
+@media screen and (max-width: 730px){
+
+  .Testimonial .Test_photo{
+    flex-direction: column;
+  }
+
+  .Testimonial .Test_content{
+    width: 80%;
+  }
+ 
+  .Testimonial .Test_content p{
+
+    margin-top: 22%;
+  }
+
+  .next{
+    right: 22px;
+    margin-top: 4%;
+  }
+  
+  .prev {
+    left: 7px;
+    margin-top: 4%;
+}
+
+
+
+  
+}
+
+/* sakshi testimonial end  */
 
 /* sakshi testimonial end  */
 
@@ -1631,8 +1742,8 @@ h1.main__Heading {
     font-size: 60px;
     color: #162431;
     margin-left: 4rem;
+    padding-top: 40px;
 }
-
 h1.main__Heading:after {
     content: "";
     display: block;
@@ -1662,8 +1773,8 @@ p.event__text {
     display: flex;
     flex-direction: row;
     margin: 3rem;
+    padding-bottom: 40px;
 }
-
 @media (max-width: 1000px) {
     .event__Container {
         flex-direction: column;
@@ -1796,7 +1907,7 @@ p.event__text {
 
 /* popup css */
 
-.full__Container#blur.active {
+.full__Container #blur .active {
     filter: blur(20px);
     pointer-events: none;
     user-select: none;
@@ -2107,7 +2218,8 @@ p.event__text {
 footer {
     font-family: "Source Sans Pro", sans-serif;
     clear: both;
-    background-color: #211B25;
+    margin: 10rem 0 0;
+    background-color:  rgb(1,32,61);
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2189,7 +2301,7 @@ footer hr {
     -ms-flex-direction: row;
     flex-direction: row;
     width: 30vw;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .fcol-1 ul {
@@ -2246,7 +2358,7 @@ footer hr {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 25vw;
-    padding: 0 2rem;
+    padding: 1.1rem 2rem;
 }
 
 .fcol-2 a {
@@ -2332,7 +2444,7 @@ footer hr {
 
 .fcol-3 {
     width: 25vw;
-    padding: 0 2.5rem;
+    padding: 1.6rem 2.5rem;
 }
 
 .fcol-3 input[type=email] {
@@ -2347,7 +2459,7 @@ footer hr {
 }
 
 .fcol-3 button {
-    background: #cfbd17;
+    background:#00f8ff;;
     height: 2.2rem;
     width: 2.2rem;
     -webkit-transform: scale(1.25);
@@ -2374,7 +2486,7 @@ footer hr {
 /* footer bottom start here */
 
 .footer-bottom {
-    background-color: #251A1E;
+    background-color:  rgb(31 47 61 / 86%);     
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2391,6 +2503,8 @@ footer hr {
 .footer-bottom p {
     display: inline;
     font-size: 1rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
 }
 
 .footer-bottom button {
