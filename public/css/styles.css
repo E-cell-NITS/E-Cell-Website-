@@ -1182,9 +1182,16 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     padding-left: 3rem;
     padding-top: 5rem;
     height: 35rem;
+=======
+    padding-bottom: 2%;
+    border-left: 100%;
+    margin: auto;
+    /* overflow:hidden; */
+>>>>>>> f7503d6a146518df1a265f0a30578966febca093
 }
 
 .timeline .line {
@@ -1709,9 +1716,21 @@ html {
 
 /* EVENT HIGHLIGHT SECTION CSS MAINUR*/
 
+<<<<<<< HEAD
 @font-face {
     font-family: Axiforma;
     src: url(/Axiforma-Regular.ttf);
+=======
+.event__Container {
+    margin: 2px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20% 90% 90%;
+    grid-template-areas: "event__Header event__Header" "left__Box right__Box" "event__Footer event__Footer";
+    margin-top: 100px;
+>>>>>>> f7503d6a146518df1a265f0a30578966febca093
 }
 
 .full__Container {
@@ -2017,6 +2036,18 @@ p.event__text {
     #TECNOESIS {
         width: 80%;
         padding: 20px;
+    }
+    .event__Box:hover h2{
+        padding-bottom: 20px;
+        transform: scale(1.1);
+    }
+    .event__Box:hover h3 {
+        font-size: 9px;
+        padding-bottom: 10px;
+        line-height: 1;
+    }
+    .event__Box{
+        margin-bottom: 1.6rem;
     }
 }
 
@@ -2419,6 +2450,17 @@ footer hr {
     position: absolute;
     background-color: #fff;
     border-radius: 50%;
+}
+
+.fix{
+    width: auto !important;
+    background-color: transparent !important;
+    border-radius: 0% !important;
+    border: none  !important;
+}
+
+.fix:after{
+    background-color: transparent !important;
 }
 
 .fcol-2 a:hover:after {
