@@ -192,11 +192,7 @@ body {
 }
 
 .navbar {
-<<<<<<< HEAD
     /* background-color: rgb(1,32,61); */
-=======
-    background-color: rgb(1, 32, 61);
->>>>>>> abde5ce72dcb0f7ff915f2eb24cc4e39bbe00a39
     position: -webkit-sticky;
     position: fixed;
     top: 0;
