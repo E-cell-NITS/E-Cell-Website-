@@ -1,4 +1,4 @@
-// doneela :- Timeline
+// doneela :- Timeline start
 
 const circleOne = document.getElementById("c1");
 const circleTwo = document.getElementById("c2");
