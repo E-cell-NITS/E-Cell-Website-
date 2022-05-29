@@ -49,7 +49,7 @@ circleFour.addEventListener("click", () => {
     circleThree.classList.remove('active-circle');
     circleFour.classList.add('active-circle');
 
-    heading.innerHTML = "Incubation <&nbsp;>";
+    heading.innerHTML = "Pre-Incubation <&nbsp;>";
     contentSmall.innerHTML = "";
     content.innerHTML = "Incubation is going on at the Start-Up Center, NIT Silchar";
     timelineLogo.innerHTML = '<img class="timelineIcon" src="/images/incubation_new.png">';
