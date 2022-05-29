@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="image/ecell-logo-bw2.png" type="image/x-icon" />
-    <!-- local-css -->
-    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <!-- about-us-css -->
     <!-- <link rel="stylesheet" href="./css/about.css"> -->
     <title>E-Cell</title>
@@ -22,7 +19,34 @@
     <!-- <script src="index.js" defer></script> -->
     <script type="text/javascript" src="javascripts/index.js" defer></script>
     <!-- Added by Hannan-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- local css  -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 
 <body onload="preloaderfun()">
@@ -287,10 +311,10 @@
                 <div class=" timeline-heading ">
                     <img class="timeline-heading-pattern">
                     <div class="timeline-heading-text ">Timeline</div>
-                    <div id="timeline-icon">
+                    <div id="timeline-icon-large">
                         <img class="timelineIcon" src="/images/Srijan-3.0.png"></div>
                 </div>
-                <div class="timeline-content">
+                <div class="timeline-content-large">
                     <div class="timeline-content-heading" id="main-heading">Srijan
                         <&nbsp;>
                     </div>
@@ -299,7 +323,7 @@
                 </div>
 
             </div>
-            <div class="timeline-section2">
+            <div class="timeline-section2-large">
                 <div class="line">
                     <div class="line-circles one" id="c1">
                         <div class="line-text one">Orientation</div>
@@ -314,12 +338,82 @@
                         <div class="line-text four">Incubation</div>
                     </div>
                 </div>
-                <!-- <center>
-                    <a href="" class="previousbutton" id="previous"></a>
-                    <a href="" class="nextbutton" id="next"></a>
-
-                </center> -->
             </div>
+
+
+            <div class="owl-carousel owl-theme">
+                <div class="event">
+                    <div id="timeline-icon">
+                        <img class="timelineIcon" src="/images/new_orientation.png" />
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-content-heading" id="main-heading">
+                            Orientation <&nbsp;>
+                        </div>
+                        <div class="timeline-content-text" id="small-content"></div>
+                        <div class="timeline-content-about" id="main-content">
+                            Ecell being the entrepreneurship cell is an active club
+                            channelizing the real-world start-up ideas and problem solving
+                            providing a platform, where you not only implement your ideas but
+                            also develop a tangible counterpart to your ideas.The aim of the
+                            club is to educate you all with the applicative problem solving,
+                            financial literacy, management and leadership in a scholastic
+                            environment of workshops and events inclusive of several
+                            interactive sessions.We believe in transferring the same passion
+                            and enthusiasm to you which has been carried by us through our
+                            legacy.
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div id="timeline-icon">
+                        <img class="timelineIcon" src="/images/Srijan-3.0.png" />
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-content-heading" id="main-heading">
+                            Srijan<&nbsp;>
+                        </div>
+                        <div class="timeline-content-text" id="small-content">
+                            NATIONAL INNOVATION & ENTREPRENEURSHIP SUMMIT
+                        </div>
+                        <div class="timeline-content-about" id="main-content">
+                            SRIJAN is a unique initiative by The Entrepreneurship Cell, NIT
+                            Silchar, to motivate and educate people about entrepreneurship and
+                            to provide a meeting ground for Corporate experts and young
+                            entrepreneurs E Summit NIT Silchar.
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div id="timeline-icon">
+                        <img class="timelineIcon" src="/images/Timeline-Empressario.png" />
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-content-heading" id="main-heading">
+                            Empressario <&nbsp;>
+                        </div>
+                        <div class="timeline-content-text" id="small-content"></div>
+                        <div class="timeline-content-about" id="main-content">
+                            Upcoming...
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div id="timeline-icon">
+                        <img class="timelineIcon" src="/images/incubation_new.png" />
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-content-heading" id="main-heading">
+                            Incubation <&nbsp;>
+                        </div>
+                        <div class="timeline-content-text" id="small-content"></div>
+                        <div class="timeline-content-about" id="main-content">
+                            Upcoming...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
 
@@ -744,6 +838,17 @@
         </footer>
         <!-- footer end -->
 
+        <script>
+            $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            smartSpeed: 750,
+            items: 1,
+            });
+        </script>
+
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -756,7 +861,6 @@
                 duration: 1500
             });
         </script>
-
 
 
         <script>
@@ -842,7 +946,6 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
-
 </body>
 
 </html>

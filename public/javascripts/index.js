@@ -7,7 +7,7 @@ const circleFour = document.getElementById("c4");
 const heading = document.getElementById("main-heading");
 const content = document.getElementById("main-content");
 const contentSmall = document.getElementById("small-content");
-const timelineLogo = document.getElementById("timeline-icon")
+const timelineLogo = document.getElementById("timeline-icon-large")
 
 circleOne.addEventListener("click", () => {
     circleOne.classList.add('active-circle');
