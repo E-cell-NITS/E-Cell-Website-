@@ -51,7 +51,7 @@ circleFour.addEventListener("click", () => {
 
     heading.innerHTML = "Incubation <&nbsp;>";
     contentSmall.innerHTML = "";
-    content.innerHTML = "Upcoming...";
+    content.innerHTML = "Incubation is going on at the Start-Up Center, NIT Silchar";
     timelineLogo.innerHTML = '<img class="timelineIcon" src="/images/incubation_new.png">';
 })
 
