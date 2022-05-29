@@ -944,16 +944,16 @@ html {
     text-align: center;
     font-size: 26px;
     font-weight: 500;
-    padding-bottom: 7%
+    padding-bottom: 3%
 }
 
 .colleb .collebLogo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 5%;
     flex-wrap: wrap;
-    flex-direction: column;
-    padding-bottom: 11%;
 }
 
 .colleb .collebLogo img {
@@ -963,9 +963,19 @@ html {
     text-align: center;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .colleb .collebLogo img {
         display: block;
+        width: 100px;
+    }
+    .colleb h5 {
+        color: grey;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 
@@ -1249,6 +1259,7 @@ html {
     font-size: 2rem;
     margin-top: -9rem;
     margin-left: -3rem;
+    text-align: center;
 }
 
 .timelineIcon {
