@@ -1,0 +1,6 @@
+<svg id="Arrow-Ecell" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="arrow-back">
+    <rect id="Rectangle_105" data-name="Rectangle 105" width="32" height="32" transform="translate(32) rotate(90)" fill="#224259" opacity="0"/>
+    <path id="Path_139" data-name="Path 139" d="M24,13H8.187l4.84-5.813A1.335,1.335,0,1,0,10.973,5.48l-6.667,8a1.587,1.587,0,0,0-.12.2.169.169,0,0,1-.093.173,1.281,1.281,0,0,0,0,.96.169.169,0,0,0,.093.173,1.587,1.587,0,0,0,.12.2l6.667,8a1.335,1.335,0,1,0,2.053-1.707l-4.84-5.813H24A1.333,1.333,0,1,0,24,13Z" transform="translate(1.333 1.666)" fill="#224259"/>
+  </g>
+</svg>
