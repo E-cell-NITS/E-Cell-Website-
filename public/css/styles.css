@@ -1417,6 +1417,8 @@ html {
 .slideshow-container {
     position: relative;
     background: white;
+    margin-left: 3rem;
+    margin-right: 2rem;
 }
 
 .mySlides {
@@ -1552,6 +1554,7 @@ html {
     height: 250px;
     width: 250px;
     margin: 0 30px 0 30px;
+    border-radius: 1rem;
 }
 
 .Testimonial .Test_content {
